@@ -1,0 +1,80 @@
+.centerDiv{
+  height: max-content;
+
+}
+.form-box{
+  padding: 30px;
+}
+.imageShowDiv {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+ 
+}
+.imageShowDiv img{
+  width: 80%;
+  background-size:cover
+}
+
+.product-name  {
+  background-color: white;
+  margin-bottom: 10px; /* Add some bottom margin */
+  border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+}
+.product-name span{
+  font-size: 35px; /* Set font size */
+  font-weight: bold; /* Set font weight */
+}
+.additional-info {
+  margin-top: 10px; /* Add some top margin */
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.overview {
+  background-color: white;
+  font-style: italic; /* Italicize text */
+  border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+  display: flex;
+  justify-content: space-between;
+
+}
+.product-description{
+  background-color: white;
+  font-style: italic; /* Italicize text */
+  border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+
+}
+.product-details p {
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+  margin-bottom: 5px; /* Add bottom margin to paragraphs */
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+
+}
+.price-details{
+  border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+  background-color: white;
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+
+}
+.contactDetails {
+  border: 1px solid #ccc; /* Add border */
+  background-color: white;
+  box-shadow: 1px 1px 10px  rgb(180, 178, 178);
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add top margin */
+}
